@@ -1,0 +1,40 @@
+# Brain Tumor MRI Classification - Requirements
+# Install with: pip install -r requirements.txt
+
+# Deep Learning (PyTorch with CUDA 12.1 runtime support)
+--index-url https://download.pytorch.org/whl/cu121
+torch==2.5.1+cu121
+torchvision==0.20.1+cu121
+torchaudio==2.5.1+cu121
+
+# Image Processing & Utilities
+opencv-python>=4.8.0
+Pillow>=10.0.0
+numpy>=1.24.0
+scikit-learn>=1.2.0
+
+# Visualization, Report Generation & Progress Bar
+matplotlib>=3.7.0
+seaborn>=0.12.0
+tqdm>=4.65.0
+reportlab>=4.0.0
+
+# Database & Security (MySQL Connector & Cryptographic Hashing)
+pymysql>=1.1.0
+cryptography>=41.0.0
+bcrypt>=4.0.0
+argon2-cffi>=23.0.0
+
+# Cloud Storage (AWS S3) & Secrets
+boto3>=1.34.0
+python-dotenv>=1.0.0
+
+# Medical RAG & AI Copilot
+sentence-transformers>=2.2.0
+faiss-cpu>=1.7.4
+groq>=0.9.0
+
+# 3D Medical Imaging (NIfTI) & Segmentation
+nibabel>=5.0.0
+segmentation-models-pytorch>=0.3.3
+
